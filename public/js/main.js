@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:4000'); //Appel du serveur socketio
+var socket = io.connect(); //Appel du serveur socketio
 
 /* Récupération des élements de la page pour le code */
 var login = document.querySelector('#login'),
