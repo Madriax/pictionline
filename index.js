@@ -413,5 +413,4 @@ var timer_thread = setInterval(() =>
 	});
 },1000);
 
-/* Utilisation du port 4000 pour le serveur (à modifier en fonction de la configuration de la machine hébergant le serveur) */
-http.listen(4000);
+http.listen(process.env.PORT);
