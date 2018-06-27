@@ -12,9 +12,9 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http); //Moteur temps-réel (communication en temps réel avec les clients)
 
 const Sequelize = require('sequelize'); //Communication base de donnée
-const sequelize = new Sequelize('pictionnary', 'root', 'Police911', {
-	host: 'localhost',
-	dialect: 'mysql',
+const sequelize = new Sequelize('dami0cdartdbtf', 'ewymhphpxmthnc', '4397ed4c95cfb6f36d4dd58ece7941960fa917128e5356dfd778a22dbd10075f', {
+	host: 'ec2-54-217-205-90.eu-west-1.compute.amazonaws.com',
+	dialect: 'postgres',
 	logging: false
 });
 
