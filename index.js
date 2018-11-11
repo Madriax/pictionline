@@ -28,7 +28,7 @@ var users = [];
 var dessinateur;
 var inGame = false;
 var actual_player = 0;
-var party_time = 15;
+var party_time = 240;
 var counter = party_time;
 var word = 0;
 var word_fr = [];
