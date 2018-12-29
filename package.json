@@ -1,5 +1,5 @@
 {
-  "name": "p5node",
+  "name": "pictionline",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,12 +7,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "madriax",
-  "license": "ISC",
+  "author": "Alexandre DUVOIS <alex.duvois@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
-    "mysql2": "^1.6.4",
-    "pg": "^7.4.3",
     "sequelize": "^4.41.2",
     "socket.io": "^2.1.1"
   },
